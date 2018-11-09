@@ -19,3 +19,10 @@ application/logs/*
 upload/*
 assets/images/*
 assets/img/*
+system/*
+application/config/*
+application/cache/*
+application/core/*
+application/hook/*
+application/language/*
+application/logs/*
