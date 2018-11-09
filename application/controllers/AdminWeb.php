@@ -15,7 +15,6 @@ class AdminWeb extends CI_Controller {
     }
 
     function simpanKontak() {
-        debug($this->input->post());
         $data = $this->input->post();
         $this->Model_dop->insert_table("t_contact_us", $data);
         redirect(base_url());

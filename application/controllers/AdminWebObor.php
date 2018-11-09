@@ -8,7 +8,6 @@ class AdminWebObor extends CI_Controller {
 
     public function __construct() {
         parent::__construct();
-        // $this->load->model('User_model','customers');
         $this->load->library("Authlogin");
         $this->sess_data = $this->authlogin->check_session();
         date_default_timezone_set('Asia/Bangkok');
