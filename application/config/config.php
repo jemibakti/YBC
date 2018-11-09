@@ -25,7 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 // $config['base_url'] = '';
 // $config['base_url']	= "http://".$_SERVER['HTTP_HOST']."";
-$config['base_url']	= "http://".$_SERVER['HTTP_HOST']."/youth";
+$config['base_url']	= "http://".$_SERVER['HTTP_HOST']."/ybc";
 // $config['base_url']	= "http://137.59.126.169/rec";
 
 /*
